@@ -1,0 +1,1317 @@
+{
+  "concat": "0.1.0",
+  "version": 1,
+  "name": "Th\u01a1 Ho\u00e0i C\u1ed5 Ch\u1ea1y Ch\u1eef Nhi\u1ec1u Trang",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "rateNum": 30,
+    "rateDen": 1
+  },
+  "media": [
+    {
+      "id": "m1",
+      "path": "",
+      "name": "Clip 1",
+      "duration": 30.0,
+      "kind": "video",
+      "hasAudio": false,
+      "placeholder": true
+    }
+  ],
+  "tracks": [
+    {
+      "id": "BG",
+      "name": "BG",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "FG",
+      "name": "FG",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "L",
+      "name": "L",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "L.2",
+      "name": "L.2",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "L.3",
+      "name": "L.3",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "L.4",
+      "name": "L.4",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "L.5",
+      "name": "L.5",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "L.6",
+      "name": "L.6",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "L.7",
+      "name": "L.7",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "DECO",
+      "name": "DECO",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "DECO.2",
+      "name": "DECO.2",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "T1",
+      "name": "T1",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "T2",
+      "name": "T2",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "T3",
+      "name": "T3",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "T3.2",
+      "name": "T3.2",
+      "visible": true,
+      "muted": false
+    },
+    {
+      "id": "FADE",
+      "name": "FADE",
+      "visible": true,
+      "muted": false
+    }
+  ],
+  "clips": [
+    {
+      "id": "c1",
+      "trackId": "BG",
+      "mediaId": "m1",
+      "name": "Clip 1 backdrop",
+      "kind": "video",
+      "start": 0.0,
+      "duration": 30.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 3.4,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 0.9,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.gaussian-blur",
+          "params": {
+            "radius": 36
+          },
+          "enabled": true
+        }
+      ],
+      "keys": [
+        {
+          "property": "scale",
+          "at": 0.0,
+          "value": 3.4,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        },
+        {
+          "property": "scale",
+          "at": 1.0,
+          "value": 3.7,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "trackId": "FG",
+      "mediaId": "m1",
+      "name": "Clip 1",
+      "kind": "video",
+      "start": 0.0,
+      "duration": 30.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 0.96,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [],
+      "keys": [
+        {
+          "property": "scale",
+          "at": 0.0,
+          "value": 0.96,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        },
+        {
+          "property": "scale",
+          "at": 1.0,
+          "value": 1.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        },
+        {
+          "property": "offsetX",
+          "at": 0.0,
+          "value": -0.012,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        },
+        {
+          "property": "offsetX",
+          "at": 1.0,
+          "value": 0.012,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        },
+        {
+          "property": "offsetY",
+          "at": 0.0,
+          "value": 0.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        },
+        {
+          "property": "offsetY",
+          "at": 1.0,
+          "value": 0.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "trackId": "L",
+      "mediaId": "",
+      "name": "vintage",
+      "kind": "layer",
+      "start": 0.0,
+      "duration": 30.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.vintage",
+          "params": {
+            "age": 70.0,
+            "tint": 55.0
+          },
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "trackId": "L.2",
+      "mediaId": "",
+      "name": "warm",
+      "kind": "layer",
+      "start": 0.0,
+      "duration": 30.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 0.35,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.warm",
+          "params": {},
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "trackId": "L.3",
+      "mediaId": "",
+      "name": "film-grain",
+      "kind": "layer",
+      "start": 0.0,
+      "duration": 30.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 0.4,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.film-grain",
+          "params": {},
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "trackId": "L.4",
+      "mediaId": "",
+      "name": "vignette",
+      "kind": "layer",
+      "start": 0.0,
+      "duration": 30.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 0.7,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.vignette",
+          "params": {},
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "trackId": "L.5",
+      "mediaId": "",
+      "name": "focus 1",
+      "kind": "layer",
+      "start": 0.0,
+      "duration": 3.6,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.gaussian-blur",
+          "params": {
+            "radius": 3.0
+          },
+          "enabled": true
+        }
+      ],
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 1.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.12,
+          "value": 1.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 1.0,
+          "value": 0.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "trackId": "L.6",
+      "mediaId": "",
+      "name": "focus 2",
+      "kind": "layer",
+      "start": 0.0,
+      "duration": 3.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.gaussian-blur",
+          "params": {
+            "radius": 9.0
+          },
+          "enabled": true
+        }
+      ],
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 1.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.12,
+          "value": 1.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 1.0,
+          "value": 0.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "trackId": "L.7",
+      "mediaId": "",
+      "name": "focus 3",
+      "kind": "layer",
+      "start": 0.0,
+      "duration": 2.4,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.gaussian-blur",
+          "params": {
+            "radius": 24.0
+          },
+          "enabled": true
+        }
+      ],
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 1.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.12,
+          "value": 1.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 1.0,
+          "value": 0.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "trackId": "DECO",
+      "mediaId": "",
+      "name": "dim",
+      "kind": "shape",
+      "start": 0.0,
+      "duration": 30.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 3.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 0.5,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [],
+      "shape": {
+        "kind": "square",
+        "size": 1.0,
+        "fill": "#000000",
+        "stroke": "",
+        "strokeWidth": 0.0
+      }
+    },
+    {
+      "id": "c11",
+      "trackId": "T1",
+      "mediaId": "",
+      "name": "TR\u1ea0M 1990s",
+      "kind": "text",
+      "start": 0.8,
+      "duration": 29.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": -0.335,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [],
+      "text": {
+        "content": "TR\u1ea0M 1990s",
+        "fontFamily": "Georgia",
+        "fontSize": 0.0165,
+        "fontWeight": 700,
+        "italic": false,
+        "color": "#d6c4a3",
+        "align": "center",
+        "opacity": 1.0,
+        "shadow": true,
+        "tracking": 0.0077,
+        "maxWidth": 0.0,
+        "background": "",
+        "strokeWidth": 0.0,
+        "strokeColor": "#000000"
+      },
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 0.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.0207,
+          "value": 1.0,
+          "ease": [
+            0.16,
+            0.84,
+            0.44,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "trackId": "DECO.2",
+      "mediaId": "",
+      "name": "page rule",
+      "kind": "shape",
+      "start": 0.8,
+      "duration": 29.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": -0.31,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [],
+      "shape": {
+        "kind": "line",
+        "size": 0.04,
+        "fill": "#d6c4a3",
+        "stroke": "#d6c4a3",
+        "strokeWidth": 0.0016
+      },
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 0.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.1,
+          "value": 0.9,
+          "ease": [
+            0.16,
+            0.84,
+            0.44,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.9,
+          "value": 0.9,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 1.0,
+          "value": 0.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "trackId": "T2",
+      "mediaId": "",
+      "name": "Trang m\u1ed9t, d\u00f2ng th\u1ee9 nh\u1ea5t\nTrang m\u1ed9t, d\u00f2ng th\u1ee9 hai\nTrang m\u1ed9t, d\u00f2ng th\u1ee9 ba\nTrang m\u1ed9t, d\u00f2ng th\u1ee9 t\u01b0\nTrang m\u1ed9t, d\u00f2ng th\u1ee9 n\u0103m\nTrang m\u1ed9t, d\u00f2ng th\u1ee9 s\u00e1u",
+      "kind": "text",
+      "start": 1.2,
+      "duration": 8.867,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": -0.05,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.word-reveal",
+          "params": {
+            "progress": 100.0
+          },
+          "enabled": true,
+          "keys": {
+            "progress": [
+              {
+                "at": 0.0,
+                "value": 0.0,
+                "ease": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "at": 0.9,
+                "value": 100.0,
+                "ease": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "at": 1.0,
+                "value": 100.0,
+                "ease": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "text": {
+        "content": "Trang m\u1ed9t, d\u00f2ng th\u1ee9 nh\u1ea5t\nTrang m\u1ed9t, d\u00f2ng th\u1ee9 hai\nTrang m\u1ed9t, d\u00f2ng th\u1ee9 ba\nTrang m\u1ed9t, d\u00f2ng th\u1ee9 t\u01b0\nTrang m\u1ed9t, d\u00f2ng th\u1ee9 n\u0103m\nTrang m\u1ed9t, d\u00f2ng th\u1ee9 s\u00e1u",
+        "fontFamily": "Georgia",
+        "fontSize": 0.028,
+        "fontWeight": 400,
+        "italic": true,
+        "color": "#f6ecd9",
+        "align": "center",
+        "opacity": 1.0,
+        "shadow": true,
+        "tracking": 0.0,
+        "maxWidth": 0.78,
+        "background": "",
+        "strokeWidth": 0.0,
+        "strokeColor": "#000000"
+      },
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 1.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.9549,
+          "value": 1.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 1.0,
+          "value": 0.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "trackId": "T2",
+      "mediaId": "",
+      "name": "Trang hai, d\u00f2ng th\u1ee9 nh\u1ea5t\nTrang hai, d\u00f2ng th\u1ee9 hai\nTrang hai, d\u00f2ng th\u1ee9 ba\nTrang hai, d\u00f2ng th\u1ee9 t\u01b0\nTrang hai, d\u00f2ng th\u1ee9 n\u0103m\nTrang hai, d\u00f2ng th\u1ee9 s\u00e1u",
+      "kind": "text",
+      "start": 10.467,
+      "duration": 8.867,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": -0.05,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.word-reveal",
+          "params": {
+            "progress": 100.0
+          },
+          "enabled": true,
+          "keys": {
+            "progress": [
+              {
+                "at": 0.0,
+                "value": 0.0,
+                "ease": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "at": 0.9,
+                "value": 100.0,
+                "ease": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "at": 1.0,
+                "value": 100.0,
+                "ease": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "text": {
+        "content": "Trang hai, d\u00f2ng th\u1ee9 nh\u1ea5t\nTrang hai, d\u00f2ng th\u1ee9 hai\nTrang hai, d\u00f2ng th\u1ee9 ba\nTrang hai, d\u00f2ng th\u1ee9 t\u01b0\nTrang hai, d\u00f2ng th\u1ee9 n\u0103m\nTrang hai, d\u00f2ng th\u1ee9 s\u00e1u",
+        "fontFamily": "Georgia",
+        "fontSize": 0.028,
+        "fontWeight": 400,
+        "italic": true,
+        "color": "#f6ecd9",
+        "align": "center",
+        "opacity": 1.0,
+        "shadow": true,
+        "tracking": 0.0,
+        "maxWidth": 0.78,
+        "background": "",
+        "strokeWidth": 0.0,
+        "strokeColor": "#000000"
+      },
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 1.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.9549,
+          "value": 1.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 1.0,
+          "value": 0.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "trackId": "T2",
+      "mediaId": "",
+      "name": "Trang ba, d\u00f2ng th\u1ee9 nh\u1ea5t\nTrang ba, d\u00f2ng th\u1ee9 hai\nTrang ba, d\u00f2ng th\u1ee9 ba\nTrang ba, d\u00f2ng th\u1ee9 t\u01b0\nTrang ba, d\u00f2ng th\u1ee9 n\u0103m\nTrang ba, d\u00f2ng th\u1ee9 s\u00e1u",
+      "kind": "text",
+      "start": 19.733,
+      "duration": 8.867,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": -0.05,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [
+        {
+          "id": "concat.word-reveal",
+          "params": {
+            "progress": 100.0
+          },
+          "enabled": true,
+          "keys": {
+            "progress": [
+              {
+                "at": 0.0,
+                "value": 0.0,
+                "ease": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "at": 0.9,
+                "value": 100.0,
+                "ease": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "at": 1.0,
+                "value": 100.0,
+                "ease": [
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "text": {
+        "content": "Trang ba, d\u00f2ng th\u1ee9 nh\u1ea5t\nTrang ba, d\u00f2ng th\u1ee9 hai\nTrang ba, d\u00f2ng th\u1ee9 ba\nTrang ba, d\u00f2ng th\u1ee9 t\u01b0\nTrang ba, d\u00f2ng th\u1ee9 n\u0103m\nTrang ba, d\u00f2ng th\u1ee9 s\u00e1u",
+        "fontFamily": "Georgia",
+        "fontSize": 0.028,
+        "fontWeight": 400,
+        "italic": true,
+        "color": "#f6ecd9",
+        "align": "center",
+        "opacity": 1.0,
+        "shadow": true,
+        "tracking": 0.0,
+        "maxWidth": 0.78,
+        "background": "",
+        "strokeWidth": 0.0,
+        "strokeColor": "#000000"
+      },
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 1.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.9549,
+          "value": 1.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 1.0,
+          "value": 0.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "trackId": "T3",
+      "mediaId": "",
+      "name": "\u201cT\u00ean b\u00e0i th\u01a1\u201d",
+      "kind": "text",
+      "start": 2.0,
+      "duration": 27.8,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.2,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [],
+      "text": {
+        "content": "\u201cT\u00ean b\u00e0i th\u01a1\u201d",
+        "fontFamily": "Georgia",
+        "fontSize": 0.018,
+        "fontWeight": 400,
+        "italic": true,
+        "color": "#d6c4a3",
+        "align": "center",
+        "opacity": 1.0,
+        "shadow": true,
+        "tracking": 0.0,
+        "maxWidth": 0.0,
+        "background": "",
+        "strokeWidth": 0.0,
+        "strokeColor": "#000000"
+      },
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 0.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.0216,
+          "value": 1.0,
+          "ease": [
+            0.16,
+            0.84,
+            0.44,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c17",
+      "trackId": "T3.2",
+      "mediaId": "",
+      "name": "T\u00caN T\u00c1C GI\u1ea2",
+      "kind": "text",
+      "start": 2.3,
+      "duration": 27.5,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.226,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [],
+      "text": {
+        "content": "T\u00caN T\u00c1C GI\u1ea2",
+        "fontFamily": "Georgia",
+        "fontSize": 0.0155,
+        "fontWeight": 700,
+        "italic": false,
+        "color": "#f6ecd9",
+        "align": "center",
+        "opacity": 1.0,
+        "shadow": true,
+        "tracking": 0.0088,
+        "maxWidth": 0.0,
+        "background": "",
+        "strokeWidth": 0.0,
+        "strokeColor": "#000000"
+      },
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 0.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 0.0218,
+          "value": 1.0,
+          "ease": [
+            0.16,
+            0.84,
+            0.44,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c18",
+      "trackId": "FADE",
+      "mediaId": "",
+      "name": "fade in",
+      "kind": "shape",
+      "start": 0.0,
+      "duration": 1.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 3.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [],
+      "shape": {
+        "kind": "square",
+        "size": 1.0,
+        "fill": "#0c0805",
+        "stroke": "",
+        "strokeWidth": 0.0
+      },
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 1.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 1.0,
+          "value": 0.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c19",
+      "trackId": "FADE",
+      "mediaId": "",
+      "name": "fade out",
+      "kind": "shape",
+      "start": 29.0,
+      "duration": 1.0,
+      "sourceStart": 0.0,
+      "volume": 1.0,
+      "fadeIn": 0.0,
+      "fadeOut": 0.0,
+      "scale": 3.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0,
+      "rotation": 0.0,
+      "opacity": 1.0,
+      "speed": 1.0,
+      "preservePitch": true,
+      "filters": [],
+      "videoEffects": [],
+      "shape": {
+        "kind": "square",
+        "size": 1.0,
+        "fill": "#0c0805",
+        "stroke": "",
+        "strokeWidth": 0.0
+      },
+      "keys": [
+        {
+          "property": "opacity",
+          "at": 0.0,
+          "value": 0.0,
+          "ease": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "property": "opacity",
+          "at": 1.0,
+          "value": 1.0,
+          "ease": [
+            0.42,
+            0.0,
+            0.58,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

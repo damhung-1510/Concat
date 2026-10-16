@@ -1,0 +1,23 @@
+format = 2
+
+[effect]
+id = "concat.word-reveal"
+name = "Word Reveal"
+version = 1
+kind = "effect"
+category = "Voice"
+order = 50
+aliases = ["word-reveal", "karaoke"]
+description = "A title's words appear one after another, in reading order, as Progress rises from 0 to 100. Key Progress across the clip and the words follow a voice."
+
+[[param]]
+key = "progress"
+label = "Progress"
+min = 0
+max = 100
+default = 100
+step = 1
+unit = "%"
+
+[wgsl]
+entry = "effect.wgsl"
